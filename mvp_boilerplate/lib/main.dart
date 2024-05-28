@@ -11,9 +11,8 @@ import 'package:supabase_flutter/supabase_flutter.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Supabase.initialize(
-    url: 'https://wdxfbfrcviowulhlnvnf.supabase.co',
-    anonKey:
-        'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndkeGZiZnJjdmlvd3VsaGxudm5mIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTY4NzE0OTAsImV4cCI6MjAzMjQ0NzQ5MH0.Kmjjf10d3qUO7zKxv4fAdmw3m6gVXmqbzP7y4LpNiL4',
+    url: 'https://yoururl.com',
+    anonKey: 'your key',
   );
 
   setupLocator();
