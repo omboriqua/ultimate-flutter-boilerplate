@@ -67,8 +67,10 @@ lib/
 
   ### Full List Of Packages Used
 
+  #### Dependencies
+
   ``` bash
-  dependencies:
+  
   cached_network_image: ^3.3.1
   connectivity_plus: ^6.0.3
   cupertino_icons: ^1.0.8
@@ -116,7 +118,9 @@ lib/
   shorebird_code_push: ^1.1.3
   supabase_flutter: ^2.5.3
   url_launcher: ^6.2.6
-  video_player: ^2.8.6```
+  video_player: ^2.8.6
+  ```
+#### Dev Dependencies
 
 ```bash
 dev_dependencies:
@@ -126,7 +130,8 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   riverpod_generator: ^2.4.0
-  riverpod_lint: ^2.3.10```
+  riverpod_lint: ^2.3.10
+```
 
 ## Setup Instructions
 
