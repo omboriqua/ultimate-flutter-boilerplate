@@ -67,7 +67,8 @@ lib/
 
   ### Full List Of Packages Used
 
-  `dependencies:
+  ``` bash
+  dependencies:
   cached_network_image: ^3.3.1
   connectivity_plus: ^6.0.3
   cupertino_icons: ^1.0.8
@@ -115,8 +116,9 @@ lib/
   shorebird_code_push: ^1.1.3
   supabase_flutter: ^2.5.3
   url_launcher: ^6.2.6
-  video_player: ^2.8.6
+  video_player: ^2.8.6```
 
+```bash
 dev_dependencies:
   build_runner: ^2.4.10
   custom_lint: ^0.6.4
@@ -124,14 +126,14 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   riverpod_generator: ^2.4.0
-  riverpod_lint: ^2.3.10`
+  riverpod_lint: ^2.3.10```
 
 ## Setup Instructions
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/flutter_boilerplate.git
-   cd flutter_boilerplate
+   git clone https://github.com/omboriqua/ultimate-flutter-boilerplate.git
+   cd ultimate-flutter-boilerplate
    ```
 
 2. **Install Dependencies**
